@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Pacifico&display=swap');
+
+body {
+background-color: beige;
+
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size:x-large;
+    color: black;
+}
+
+
+.ingredients{
+
+    border: 3px solid black;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    color:blue
+   
+    
+}
+
+.ingredients-table{
+border: 1px solid black;
+margin-right: 5rem;
+border: 3px solid black;
+
+}
+
+.instructions{
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    color:blue
+
+}
+
+.instructions ol {
+    border: 3px solid black;
+    margin: 0 auto;
+    width: 90%;
+    padding-left: 120px;
+    
+    
+}
+
+.footer{
+    width: 50%; 
+    margin: 0 auto;
+}
+
+.img{
+
+    border: 1px solid black;
+    
+}
