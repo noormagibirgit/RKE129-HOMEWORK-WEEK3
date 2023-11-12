@@ -2,6 +2,7 @@
 
 body {
 background-color: beige;
+overflow: hidden;
 
 }
 
@@ -10,10 +11,22 @@ background-color: beige;
     font-family: 'Pacifico', cursive;
     font-size:x-large;
     color: black;
+    position:relative;
+    animation: heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
 
+@keyframes heading {
+    0% {top: -250px}
+    100%{top: 100px}
+}
 
 .ingredients{
+
+    position: relative;
+    animation: ingredients;
+    animation-duration: 3s;
 
     border: 3px solid black;
     width: 50%;
@@ -25,6 +38,12 @@ background-color: beige;
     
 }
 
+@keyframes ingredients {
+    0% {left: -900px}
+    85% {left: 50px}
+    100% {left: 0;}
+}
+
 .ingredients-table{
 border: 1px solid black;
 margin-right: 5rem;
@@ -33,11 +52,21 @@ border: 3px solid black;
 }
 
 .instructions{
+    position: relative;
+    animation: instructions;
+    animation-duration: 3s;
+
     border: 1px solid black;
     width: 50%;
     margin: 0 auto;
     color:blue
 
+}
+
+@keyframes instructions {
+    0% {right: -900px}
+    85% {right: 50px}
+    100% {right: 0;}
 }
 
 .instructions ol {
@@ -52,6 +81,16 @@ border: 3px solid black;
 .footer{
     width: 50%; 
     margin: 0 auto;
+    
+    animation: footer;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes footer {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 .img{
